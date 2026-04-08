@@ -114,7 +114,7 @@ public class MainController implements Initializable {
             petListContainer.getChildren().add(buildPetCard(pet));
         }
 
-        statusLabel.setText(pets.size() + " pet" + (pets.size() == 1 ? "" : "s") + " available · Connected to PostgreSQL");
+        statusLabel.setText(pets.size() + " pet" + (pets.size() == 1 ? "" : "s") + " available");
     }
 
     /**
